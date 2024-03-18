@@ -1,40 +1,48 @@
-¡Claro! Aquí tienes una serie de proyectos que puedes desarrollar para aprender Orientación a Objetos (OOP) en Python:
+# Python Object-Oriented Programming (OOP)
 
-1. **Calculadora Simple:**
-   - Crea una clase `Calculadora` que tenga métodos para realizar operaciones básicas como suma, resta, multiplicación y división.
-   - Utiliza objetos de esta clase para realizar cálculos simples.
+Aquí se encuentran una serie de proyectos para aprender Orientación a Objetos (OOP) en Python. Cada proyecto tiene una descripción básica y un paso a paso junto con los conceptos clave que abarcan.
 
-2. **Gestor de Contactos:**
+## 1. **Calculadora Simple:**
+   - **Descripción:** Crea una clase `Calculadora` que tenga métodos para realizar operaciones básicas como suma, resta, multiplicación y división. Utiliza objetos de esta clase para realizar cálculos simples.<br><br>
+
+   - **Conceptos de OOP:** *Clases, métodos, atributos.*
+        1. **Clases:** Las clases son plantillas para crear objetos que encapsulan datos y comportamientos relacionados. En este proyecto, la clase `Calculadora` representa una calculadora con métodos para realizar operaciones matemáticas.
+        2. **Métodos:** Los métodos son funciones asociadas a una clase que pueden realizar operaciones específicas sobre los objetos de esa clase. En este caso, los métodos de la clase `Calculadora` realizan las operaciones de suma, resta, multiplicación y división.
+        3. **Atributos:** Los atributos son variables asociadas a un objeto que representan su estado. En este proyecto, la calculadora puede tener atributos como el último resultado calculado.
+        4. **Encapsulación:** La encapsulación es el proceso de ocultar la implementación interna de un objeto y solo exponer una interfaz pública para interactuar con él. En este proyecto, los métodos de la clase `Calculadora` encapsulan la lógica para realizar operaciones matemáticas.<br><br>
+
+   - **Pasos a seguir:**
+        1. Define una clase `Calculadora` con métodos para las operaciones básicas (suma, resta, multiplicación, división).
+        2. Implementa métodos para realizar cada operación.
+        3. Crea objetos de la clase `Calculadora` y realiza cálculos simples.
+
+## 2. **Gestor de Contactos:**
    - Desarrolla una clase `Contacto` que represente a una persona con atributos como nombre, apellido, número de teléfono, y dirección de correo electrónico.
    - Crea una clase `Agenda` que permita agregar, eliminar, buscar y mostrar contactos.
 
-3. **Lista de Tareas:**
+## 3. **Lista de Tareas:**
    - Crea una clase `Tarea` con atributos como descripción, fecha de vencimiento y estado (pendiente, en progreso, completada).
    - Desarrolla una clase `ListaTareas` que permita agregar, eliminar y mostrar tareas, así como marcarlas como completadas.
 
-4. **Juego de Cartas:**
+## 4. **Juego de Cartas:**
    - Implementa clases para representar un juego de cartas, incluyendo cartas individuales y una baraja.
    - Desarrolla métodos para barajar las cartas, repartirlas a los jugadores y determinar el ganador.
 
-5. **Sistema de Gestión de Biblioteca:**
+## 5. **Sistema de Gestión de Biblioteca:**
    - Crea clases para representar libros, usuarios y la biblioteca en sí.
    - Implementa métodos para que los usuarios puedan tomar prestados libros, devolverlos y buscar libros disponibles.
 
-6. **Simulador de Banco:**
+## 6. **Simulador de Banco:**
    - Desarrolla clases para representar cuentas bancarias, clientes y el banco en sí.
    - Implementa métodos para realizar depósitos, retiros y transferencias entre cuentas.
 
-7. **Tienda en Línea:**
+## 7. **Tienda en Línea:**
    - Crea clases para representar productos, carritos de compra y usuarios.
    - Implementa métodos para agregar productos al carrito, procesar compras y calcular el total.
 
-8. **Gestor de Proyectos:**
+## 8. **Gestor de Proyectos:**
    - Desarrolla clases para representar proyectos, tareas y empleados.
    - Implementa métodos para asignar tareas a empleados, hacer un seguimiento del progreso del proyecto y generar informes.
-
-Para cada proyecto, comienza diseñando la estructura de clases y métodos necesarios. Luego, implementa cada clase paso a paso, probando y depurando a medida que avanzas. Este enfoque te ayudará a comprender los conceptos fundamentales de la OOP en Python mientras desarrollas proyectos prácticos.
-
-¡Por supuesto! Aquí tienes una guía básica para cada proyecto, junto con los conceptos de OOP que aprenderías:
 
 1. **Calculadora Simple:**
    - Conceptos de OOP: Clases, métodos, atributos.
@@ -93,7 +101,7 @@ Para cada proyecto, comienza diseñando la estructura de clases y métodos neces
      3. Utiliza la composición para relacionar objetos de diferentes clases, como asignar tareas a proyectos y empleados.
 
 Por supuesto, aquí tienes una explicación de los conceptos involucrados en cada proyecto:
-
+---------------------------------------------------------------------------------------------------------------------
 1. **Calculadora Simple:**
    - **Clases:** Las clases son plantillas para crear objetos que encapsulan datos y comportamientos relacionados. En este proyecto, la clase `Calculadora` representa una calculadora con métodos para realizar operaciones matemáticas.
    - **Métodos:** Los métodos son funciones asociadas a una clase que pueden realizar operaciones específicas sobre los objetos de esa clase. En este caso, los métodos de la clase `Calculadora` realizan las operaciones de suma, resta, multiplicación y división.
