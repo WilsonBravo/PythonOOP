@@ -12,3 +12,14 @@ class calculator:
     def substract(self):
         return (self.firstNumber-self.secondNumber)
     
+    # multiply method
+    def multiply(self):
+        return (self.firstNumber*self.secondNumber)
+    
+    # divide method
+    def divide(self):
+        if self.secondNumber != 0:
+            return (self.firstNumber/self.secondNumber)
+        else:
+            return ("You cannot divide by 0.")
+    
