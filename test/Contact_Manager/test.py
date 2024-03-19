@@ -4,6 +4,6 @@ def contactManagerTest(contactListClass, contacts):
     for contact in contacts:
         print(">>\n",contactList.add(contact["first name"], contact["last name"], contact["phone number"], contact["email"]))
 
-    print(">>\n",contactList.delete(firstName="Wison"))
+    print(">>\n",contactList.delete(firstName="Juan"))
     print(">>\n",contactList.show())
     print(">>\n",contactList.search(firstName="Dennis"))
