@@ -42,7 +42,7 @@ class contactListClass:
     # delete contact
     def delete(self, firstName=None, lastName=None, phoneNumber=None, email=None):
         if not firstName and not lastName and not phoneNumber and not email:
-            return "There are no contacts to delete"
+            return "Enter data before calling the method"
         
         contacts_to_delete = []
 
@@ -66,26 +66,23 @@ class contactListClass:
     # search contact
     def search(self, firstName=None, lastName=None, phoneNumber=None, email=None):
         if not firstName and not lastName and not phoneNumber and not email:
-            return "There are no contacts to delete"
+            return "Enter data before calling the method"
         
-        contacts_to_delete = []
+        contacts_found = []
 
         for contact in self.contactList:
             if (firstName is None or contact.firstName == firstName) and \
             (lastName is None or contact.lastName == lastName) and \
             (phoneNumber is None or contact.phoneNumber == phoneNumber) and \
             (email is None or contact.email == email):
-                contacts_to_delete.append(contact)
+                contacts_found.append(contact)
         
-        if contacts_to_delete:
-            for contact in contacts_to_delete:
-                self.contactList.remove(contact)
+        if contacts_found:
+            contacts_found=self.to_json_list(contacts_found)
 
-            contacts_to_delete=self.to_json_list(contacts_to_delete)
-
-            return f"The following contacts were deleted:\n{json.dumps(contacts_to_delete, indent=2)}"
+            return f"The following contacts were found:\n{json.dumps(contacts_found, indent=2)}"
         else:
-            return "There are no contacts found"
+            return "No contacts found"
 
     # show contact
     def show(self):
