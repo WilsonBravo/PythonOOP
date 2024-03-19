@@ -1,25 +1,20 @@
 class calculator:
-    def __init__(self, a, b):
-        # declarar atributos de la clase
-        self.firstNumber=a
-        self.secondNumber=b
-
     # sum method
-    def sum(self):
-        return (self.firstNumber+self.secondNumber)
+    def sum(self, firstNumber, secondNumber):
+        return (firstNumber+secondNumber)
 
     # substract method
-    def substract(self):
-        return (self.firstNumber-self.secondNumber)
+    def substract(self, firstNumber, secondNumber):
+        return (firstNumber-secondNumber)
     
     # multiply method
-    def multiply(self):
-        return (self.firstNumber*self.secondNumber)
+    def multiply(self, firstNumber, secondNumber):
+        return (firstNumber*secondNumber)
     
     # divide method
-    def divide(self):
-        if self.secondNumber != 0:
-            return (self.firstNumber/self.secondNumber)
+    def divide(self, firstNumber, secondNumber):
+        if secondNumber != 0:
+            return (firstNumber/secondNumber)
         else:
             return ("You cannot divide by 0.")
     
